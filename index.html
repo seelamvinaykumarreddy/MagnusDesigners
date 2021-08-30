@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+
+    <link rel="stylesheet" href="./js/slide.css ">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./js/aos.css">
+    <link rel="stylesheet" href="./js/styles.css">
+    <link rel="icon" type="image/png" href="images/fa.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <link href='https://fonts.googleapis.com/css?family=Manrope:wght@400;500;600&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./js/aos.css">
+    <link rel="stylesheet" href="./js/aos.js">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="header__logo"><img src="/images/Magnus Logo with Text.PNG" width="136" alt=""></a>
+
+        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+
+                <div class="">
+                    <div class="">
+
+                        <img src="/images/Magnus Logo with Text.PNG" width="156" alt=""> </div>
+
+                    <div>
+
+                    </div>
+                </div>
+
+                <div class="nav__menu">
+                    <ul class="nav__list" style="font-size: 18px;">
+                        <li class="nav__item"><a href="#" class="nav__link ">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Testimonials</a></li>
+                        <li id="contact" class="nav__item "><a href="#" class="nav__link" style="color: white !important;">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div id='contact-info'>
+
+                    <div class='links'>
+                        <a href='https://www.linkedin.com/in/seelam-vinay-kumar-reddy-5031251b0' target='_blank'>
+                            <div>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                                <span>
+                                <i class="fa fa-linkedin"></i>
+                              </span>
+                            </div>
+                        </a>
+
+                        <a href='https://www.facebook.com/' class='orange-border' target='_blank'>
+                            <div>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span>
+                                <i class="fa fa-facebook-f"></i>
+                              </span>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="flex flex-row language" style="font-size: 12px; justify-content: space-around;margin-bottom: 5%;">
+                        <h1 class="lan hover:bg-blue-200 ">EN</h1>
+                        <h1 class="lan hover:bg-blue-200">SP</h1>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style="margin-top: 5%;" class="carousel" data-flickity='{ "cellAlign": "left","autoPlay": true }'>
+        <div class="carousel-cell" style="background-image: url(./images/pexels-pixabay-275030.jpg),linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 8));background-blend-mode: overlay;background-size: cover;background-repeat: no-repeat;">
+            <section class="hero-text1 text-white body-font" style="margin-top: 10%;font-family: manrope;">
+                <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+                    <div class="text-center lg:w-2/3 w-full">
+                        <h1 class="title-font sm:text-5xl text-3xl leading-relaxed mb-4 font-medium " style="font-weight: normal ;">We are full Service Engineering and Steel Detailing Company</h1>
+                        <p class="mb-4 hero-text2 text-xl leading-relaxed" style="font-weight: normal;">We deliver the best services possible to help our clients to get most out of our experience.</p>
+                        <div class="flex justify-center">
+                            <button class="inline-flex text-white knowmore  border-2 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Know more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="carousel-cell" style="background-image: url(./images/pipe.jpg),linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 8));background-blend-mode: overlay;background-size: cover;background-repeat: no-repeat;">
+            <section class="hero-text1 text-white body-font" style="margin-top: 10%;font-family: manrope;">
+                <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+                    <div class="text-center lg:w-2/3 w-full">
+                        <h1 class="title-font sm:text-5xl text-3xl leading-relaxed mb-4 font-medium " style="font-weight: normal ;">We are full Service Engineering and Steel Detailing Company</h1>
+                        <p class="mb-4 hero-text2 text-xl leading-relaxed" style="font-weight: normal;">We deliver the best services possible to help our clients to get most out of our experience.</p>
+                        <div class="flex justify-center">
+                            <button class="inline-flex text-white knowmore  border-2 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Know more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="carousel-cell" style="background-image: url(./images/pexels-kaboompics-com-6119.jpg),linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 8));background-blend-mode: overlay;background-size: cover;background-repeat: no-repeat;">
+            <section class="hero-text1 text-white body-font" style="margin-top: 10%;font-family: manrope;">
+                <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+                    <div class="text-center lg:w-2/3 w-full">
+                        <h1 class="title-font sm:text-5xl text-3xl leading-relaxed mb-4 font-medium " style="font-weight: normal ;">We are full Service Engineering and Steel Detailing Company</h1>
+                        <p class="mb-4 text-xl hero-text2 leading-relaxed" style="font-weight: normal;">We deliver the best services possible to help our clients to get most out of our experience.</p>
+                        <div class="flex justify-center">
+                            <button class="inline-flex text-white knowmore  border-2 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Know more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="carousel-cell" style="background-image: url(./images/img-UCLH.jpg),linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 8));background-blend-mode: overlay;background-size: cover;background-repeat: no-repeat;">
+            <section class="hero-text1 text-white body-font" style="margin-top: 10%;font-family: manrope;">
+                <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+                    <div class="text-center lg:w-2/3 w-full">
+                        <h1 class="title-font sm:text-5xl text-3xl leading-relaxed mb-4 font-medium " style="font-weight: normal ;">We are full Service Engineering and Steel Detailing Company</h1>
+                        <p class="mb-4 text-xl hero-text2 leading-relaxed" style="font-weight: normal;">We deliver the best services possible to help our clients to get most out of our experience.</p>
+                        <div class="flex justify-center">
+                            <button class="inline-flex text-white knowmore  border-2 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Know more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <section class="text-gray-800 body-font">
+        <h1 class="title-font sm:text-4xl text-3xl mb-0 mt-20 text-center font-medium text-gray-900">Who we are
+        </h1>
+        <div class="container whobg mx-auto flex px-5 py-6 md:flex-row flex-col items-center" style="background-image: url(./images/bg.png);background-size: contain;">
+
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover who-img object-center rounded" alt="hero" src="./images/Group 1000000707.png">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+
+                <p class="mb-8 whoweare text-white text-xl leading-relaxed">We are a group of Engineers and Designers highly motivated and committed to provide responsive, quality services to our clients. We believe that communication and transparency are key for good relationship and that make us unique.</p>
+
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-800 body-font " style="background-image: url(./images/missionbg.png);background-size: cover;">
+        <h1 class="title-font ourmission sm:text-4xl text-3xl text-center pt-6 mb-0 mt-10 font-medium text-gray-900">Our mission
+        </h1>
+        <div class="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pl-44 md:pl-24 flex flex-col md:items-start md:text-left  items-center text-center">
+
+                <p class="mb-8 mission-text text-xl -mt-20 leading-relaxed">We are a group of Engineers and Designers highly motivated and committed to provide responsive, quality services to our clients. We believe that communication and transparency are key for good relationship and that make us unique.</p>
+
+            </div>
+            <div class=" md:w-1/3 w-1/3">
+                <img class="object-cover object-center " alt="hero" src="./images/mission.png">
+            </div>
+        </div>
+    </section>
+    <h1 class="title-font sm:text-4xl text-3xl -mb-4 mt-20 text-center font-medium text-gray-900">What we do
+    </h1>
+    <ul class="honeycomb">
+        <li class="honeycomb-cell">
+            <img class="honeycomb-cell_image" src="./images/structure.jpg">
+            <div class="honeycomb-cell_title">Structural Design</div>
+        </li>
+        <li class="honeycomb-cell">
+            <img class="honeycomb-cell_image" src="./images/pipe.jpg">
+            <div class="honeycomb-cell_title">PIPE DESIGN</div>
+        </li>
+
+        <li class="honeycomb-cell">
+            <img class="honeycomb-cell_image" src="./images/conc.png">
+            <div class="honeycomb-cell_title">CONCRETE REBAR DESIGN </div>
+        </li>
+        <li class="honeycomb-cell">
+            <img class="honeycomb-cell_image" src="./images/archi.jpg">
+            <div class="honeycomb-cell_title">ARCHITECTURAL DESIGN
+            </div>
+        </li>
+        <li class="honeycomb-cell">
+            <img class="honeycomb-cell_image" src="./images/building.jpg">
+            <div class="honeycomb-cell_title">BUILDING INFORMATION MODELING
+                <small></small></div>
+        </li>
+
+        <li class="honeycomb-cell honeycomb_placeholder">
+        </li>
+    </ul>
+    <section class="text-gray-600 body-font ">
+        <div class="core-values container mx-auto flex px-5 py-26 items-center justify-center flex-col">
+            <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-4xl text-3xl mb-10 font-medium text-gray-900">Core Values</h1>
+
+            </div>
+            <img class="lg:w-3/5 mb-10 object-cover object-center rounded" alt="hero" src="./images/Core values.jpg">
+
+        </div>
+    </section>
+    <section style="background-color: #F5F7FF;">
+        <h1 class="text-center text-4xl text-black pt-6">Customers we served</h1>
+        <div class="wrapper">
+
+            <div class="slider">
+                <div class="slide">
+                    <img src="./images/c1.png">
+                    <img src="./images/c2.png">
+                    <img src="./images/c3.png">
+                    <img src="./images/c4.png">
+                    <img src="./images/c5.png">
+                    <img src="./images/c1.png">
+                    <img src="./images/c2.png">
+                    <img src="./images/c3.png">
+                    <img src="./images/c4.png">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="text-gray-800 body-font">
+        <h1 id="projects" class="title-font text-center sm:text-4xl text-3xl mb-4 mt-10 font-medium " style="color: #000339;">Featured Projects</h1>
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-3xl text-2xl mb-1 font-medium " style="color: #000339;">Bridge Support Structure
+                </h1>
+                <p class="mb-6 leading-relaxed">Magnus Designers were involved in designing and detailing of temporary supports for dismantling Cantilever section of San Francisco-Oakland Bay Bridge Original East Span.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-black projectknow  border-2 py-2 px-6 focus:outline-none hover:bg-blue-500 hover:text-white  text-lg">Know more</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./images/Projects/bridge.jpg">
+            </div>
+        </div>
+        <div class="container mx-auto flex px-5 py-0 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./images/Projects/slide.jpg">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-3xl text-2xl mb-1 font-medium " style="color: #000339;">Modular Accomodation
+                </h1>
+                <p class="mb-6 leading-relaxed">Magnus Designers are involved in developing the concept, design and detailing of shop drawings for Modular accommodation / work space.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-black projectknow  border-2 py-2 px-6 focus:outline-none hover:bg-blue-500 hover:text-white rounded text-lg">Know more</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-3xl text-2xl mb-1 font-medium " style="color: #000339;">Walkway Platforms, Stairs and Handrails
+                </h1>
+                <p class="mb-6 leading-relaxed">Our client wants to have walkways and stairs that can be produced in large quantity and easily installed based on site conditions.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-black projectknow  border-2 py-2 px-6 focus:outline-none hover:bg-blue-500 hover:text-white  text-lg">Know more</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./images/Projects/Stairs.jpg">
+            </div>
+        </div>
+        <div class="flex justify-center mb-16">
+            <button class="inline-flex text-black moreproj py-2 px-6 focus:outline-none hover:bg-blue-500 hover:text-white  text-lg">View more projects</button>
+        </div>
+    </section>
+    <!-- <div id="testimonial" class="mb-36">
+        <h2 class="text-center test-text text-4xl" style="font-weight: 500;padding-top: 2%;"> What our Customers Say</h2>
+        <div class="view-box text-black">
+            <div id="test">
+                <div class="user">
+                    <p> " It was a good experience working with Magnus Designers. Communication was excellent. The drawings appear to be accurate and functional. The overall readability and aesthetics may not be 100%, but didn't affect anything except my
+                        picky personality. Overall, it was easy to work with Magnus Designers and they are flexible. I would recommend them to anyone who needs a solid detailed drawings who can adapt to your needs fairly easily."</p>
+                    <h3><b> Greg Craddock </b> <br>
+                        <span style="font-size: 16px; ">President,
+                            Craddock Enterprises LLC</span> </h3>
+                    <img src="./images/q.png" alt="">
+                </div>
+                <div class="user">
+                    <p> <br> " Great communication and very responsive! Completed the job on time and did very good work. <br> Would definitely use Magnus designers on our future projects. "
+                    </p>
+                    <h3 style="font-weight: bold;"> Alicia Tomlin<br>
+                        <span style="font-size: 16px;font-weight: 500;">Vice President, Gilmon Fox General Contractors</span> </h3>
+                    <img src="./images/q.png" alt="">
+                </div>
+
+                <div class="user">
+                    <p> <br> "We use Magnus Designers for all our design needs. As the previous jobs, they have exceeded our expectation. <br> Always delivers as promised, detail oriented and good communication."</p>
+                    <h3>Timothy Kross<br>
+                        <span style="font-size: 16px;">Operations Manager, Cavalier Engineering</span> </h3>
+                    <img src="./images/q.png" alt="">
+                </div>
+            </div>
+            <div class="controls">
+                <span id="control1" class="active"></span>
+                <span id="control2"></span>
+                <span id="control3"></span>
+                <span style="visibility: hidden;" id="control3"></span>
+            </div>
+        </div>
+    </div>-->
+    <div id="testimonial" style="background-image: url(images/test_bg.png);background-size: cover;background-repeat: no-repeat;">
+        <h2 class="text-center test-text text-4xl" style="font-weight: bold;padding-top: 2%;"> What our Customers Say</h2>
+        <div class="view-box text-black">
+            <div id="test">
+                <div class="user">
+                    <h1></h1>
+                    <p> " It was a good experience working with Magnus Designers. Communication was excellent. The drawings appear to be accurate and functional. The overall readability and aesthetics may not be 100%, but didn't affect anything except my
+                        picky personality. Overall, it was easy to work with Magnus Designers and they are flexible. I would recommend them to anyone who needs a solid detailed drawings who can adapt to your needs fairly easily."</p>
+                    <h3>Greg Craddock <br>
+                        <span style="font-size: 16px;">President,
+                            Craddock Enterprises LLC</span> </h3>
+                    <img src="./images/q.png" alt="">
+                </div>
+                <div class="user">
+                    <h1></h1>
+                    <p> <br> " Great communication and very responsive! Completed the job on time and did very good work. <br> Would definitely use Magnus designers on our future projects. "
+                    </p>
+                    <h3>Alicia Tomlin<br>
+                        <span style="font-size: 16px;">Vice President, Gilmon Fox General Contractors</span> </h3>
+                    <img src="./images/q.png" alt="">
+                </div>
+
+                <div class="user">
+                    <h1></h1>
+                    <p> <br> " We use Magnus Designers for all our design needs. As the previous jobs, they have exceeded our expectation. <br> Always delivers as promised, detail oriented and good communication."</p>
+                    <h3>Timothy Kross<br>
+                        <span style="font-size: 16px;">Operations Manager, Cavalier Engineering</span> </h3>
+                    <img src="./images/q.png" alt="">
+                </div>
+            </div>
+            <div class="controls">
+                <span id="control1" class="active"></span>
+                <span id="control2"></span>
+
+                <span id="control3"></span>
+                <span style="visibility: hidden;" id="control3"></span>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-4xl text-center " style="margin-top: 15%;"> Get in Touch with us.</h1>
+    <div class="flex container contact flex-row mx-auto  mb-16">
+        <div class="" style="margin-top: 38px;margin-left:5%; margin-right: -11%;">
+            <img src="./images/contact.jpg" width="520px" alt="">
+        </div>
+        <div id="tabs" class="tabs text-black ">
+            <div class="tab-header">
+                <div class="active">
+                    Schedule a meet
+
+                </div>
+                <div>
+                    Send us a message
+                </div>
+            </div>
+            <div class="tab-indicator"></div>
+            <div class="tab-body">
+
+                <div class="active">
+                    <div class="calendly">
+                        <!-- Calendly inline widget begin -->
+                        <div class="calendly-inline-widget" data-url="https://calendly.com/cockcrow/15min" style="max-width:556px;height:660px;"></div>
+                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                        <!-- Calendly inline widget end -->
+                    </div>
+                </div>
+                <div>
+                    <div class="containr">
+                        <form action="" id="cockcrow" name="submit-to-google-sheet">
+                            <label for="fname">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your name..">
+
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="Your email address..">
+                            <label for="number">Number:</label>
+                            <input type="number" id="number" name="number" placeholder="Your phone number..">
+                            <!--    <label for="country">Country</label>
+                        <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+--><label for="place">Country:</label>
+                            <input type="text" id="place" name="place" placeholder="your country">
+                            <label for="subject">Message:</label>
+                            <textarea id="subject" name="event_type" placeholder="your message.." style="height:80px"></textarea>
+
+                            <input class="submit" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer  mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav class="flex lg:w-2/5 flex-wrap text-black items-center text-base md:ml-auto" style="font-family: manrope;font-size: large;font-weight: 600;">
+            <a class="mr-5 hover:text-blue-900">About us</a>
+            <a class="mr-5 hover:text-blue-900">Services</a>
+            <a class="mr-5 hover:text-blue-900">Projects</a>
+            <a class="hover:text-blue-900">Testimonials</a>
+        </nav>
+        <a class="flex footerimg order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+            <img src="./images/transparent.png" alt=""></a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+            <div class="social-container">
+                <ul class="social-icons">
+                    <li><a href="https://www.instagram.com/cockcrow_events/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/CockcrowEvents" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCikmynJ5xkxF6HxleYqy1BQ" target="_blank"><i style="margin-left: -10% !important;" class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h4 class="text-center text-m mb-4">Magnus Desingers INC 2016 | © Copy rights reserved</h4>
+    <!--Scripts-->
+    <script>
+        $("#submit ").click(function() {
+            alert("Successfully Submited ");
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#your_form_id').on('submit', function(evt) {
+                evt.preventDefault();
+                setTimeout(function() {
+                    window.location.reload();
+                }, 0);
+                this.submit();
+            });
+        });
+    </script>
+    <script>
+        $(window).on("load", function() {
+            $(".loader-wrapper").fadeOut();
+        });
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxeet6g86FYXvwbm-aCnSe91fxcGxazz3KDUDCy_GJ9abE1-Pc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+    <!---->
+
+    <script>
+        var test = document.getElementById('test');
+        var control1 = document.getElementById('control1');
+        var control2 = document.getElementById('control2');
+        var control3 = document.getElementById('control3');
+
+        control1.onclick = function() {
+            test.style.transform = "translateX(700px)";
+            control1.classList.add("active");
+            control2.classList.remove("active");
+            control3.classList.remove("active");
+        }
+        control2.onclick = function() {
+            test.style.transform = "translateX(0px)";
+            control1.classList.remove("active");
+            control2.classList.add("active");
+            control3.classList.remove("active");
+        }
+        control3.onclick = function() {
+            test.style.transform = "translateX(-700px)";
+            control1.classList.remove("active");
+            control2.classList.remove("active");
+            control3.classList.add("active");
+
+        }
+
+        setInterval(control1.onclick, 9000);
+        setInterval(control2.onclick, 18000);
+    </script>
+
+    <script>
+        var test = document.getElementById('test');
+        var control1 = document.getElementById('control1');
+        var control2 = document.getElementById('control2');
+        var control3 = document.getElementById('control3');
+
+        control1.onclick = function() {
+            test.style.transform = "translateX(900px)";
+            control1.classList.add("active");
+            control2.classList.remove("active");
+            control3.classList.remove("active");
+        }
+        control2.onclick = function() {
+            test.style.transform = "translateX(0px)";
+            control1.classList.remove("active");
+            control2.classList.add("active");
+            control3.classList.remove("active");
+        }
+        control3.onclick = function() {
+            test.style.transform = "translateX(-900px)";
+            control1.classList.remove("active");
+            control2.classList.remove("active");
+            control3.classList.add("active");
+
+        }
+
+        setInterval(control1.onclick, 9000);
+        setInterval(control2.onclick, 18000);
+    </script>
+
+    <script type="text/javascript">
+        //Javacript for responsive navigation menu
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+
+        //Javacript for video slider navigation
+        const btns = document.querySelectorAll(".nav-btn");
+        const slides = document.querySelectorAll(".video-slide");
+        const contents = document.querySelectorAll(".content");
+
+        var sliderNav = function(manual) {
+            btns.forEach((btn) => {
+                btn.classList.remove("active");
+            });
+
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+
+            contents.forEach((content) => {
+                content.classList.remove("active");
+            });
+
+            btns[manual].classList.add("active");
+            slides[manual].classList.add("active");
+            contents[manual].classList.add("active");
+        }
+
+        btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                sliderNav(i);
+            });
+        });
+    </script>
+
+    <script>
+        $(window).on("load", function() {
+            $("#loader").fadeOut("slow");
+        });
+    </script>
+
+
+    <script>
+        let tabs = document.querySelector(".tabs");
+        let tabHeader = tabs.querySelector(".tab-header");
+        let tabBody = tabs.querySelector(".tab-body");
+        let tabIndicator = tabs.querySelector(".tab-indicator");
+        let tabHeaderNodes = tabs.querySelectorAll(".tab-header > div");
+        let tabBodyNodes = tabs.querySelectorAll(".tab-body > div");
+
+        for (let i = 0; i < tabHeaderNodes.length; i++) {
+            tabHeaderNodes[i].addEventListener("click", function() {
+                tabHeader.querySelector(".active").classList.remove("active");
+                tabHeaderNodes[i].classList.add("active");
+                tabBody.querySelector(".active").classList.remove("active");
+                tabBodyNodes[i].classList.add("active");
+
+                tabIndicator.style.left = `calc(calc(100% / 2) * ${i})`;
+            });
+        }
+    </script>
+    <script src="./js/main.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+
+</body>
+
+</html>
