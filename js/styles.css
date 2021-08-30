@@ -358,9 +358,10 @@ img {
         color: #000;
     }
     .hero-text2 {
-        font-size: 16px;
+        font-size: 14px;
         width: 400px;
         margin: auto;
+        width: auto;
         margin-bottom: 4%;
     }
     .hero-text1 {
