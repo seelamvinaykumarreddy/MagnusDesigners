@@ -254,7 +254,7 @@ img {
     .controls span {
         width: 10px !important;
         height: 10px !important;
-        background: linear-gradient(#3BF3C7, #1FAEFF);
+        background: linear-gradient(#006eff, #000ed1);
         border-radius: 15px;
         margin: 5px 5px;
         margin-bottom: 8% !important;
@@ -451,7 +451,7 @@ img {
     .controls span {
         width: 10px !important;
         height: 10px !important;
-        background: linear-gradient(#3BF3C7, #1FAEFF);
+        background: linear-gradient(#0044ff, #002da8);
         border-radius: 15px;
         margin: 5px 5px;
         margin-bottom: 8% !important;
@@ -1507,7 +1507,7 @@ input[type=submit] {
 .controls span {
     width: 15px;
     height: 15px;
-    background: linear-gradient(#3BF3C7, #1FAEFF);
+    background: linear-gradient(#004cf1, #0011ff);
     border-radius: 15px;
     margin: 5px 5px;
     cursor: pointer;
