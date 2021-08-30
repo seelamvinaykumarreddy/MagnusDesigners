@@ -341,6 +341,12 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    .missionimg {
+        width: 250px;
+    }
+    .mission-text {
+        color: #000;
+    }
     .who-img {
         width: 360px;
     }
@@ -380,11 +386,11 @@ img {
         background-color: #123CB6;
         border-radius: 20px;
         padding: 4px !important;
-        padding-right: 3px;
+        padding-right: 3px !important;
         padding-left: 6px !important;
         margin-top: 0px !important;
         margin-left: 0%;
-        margin-right: 65% !important;
+        margin-right: 55% !important;
         transition: ease-out 400ms;
     }
     .nav__item {
@@ -465,9 +471,13 @@ img {
         font-size: 14px !important;
         font-weight: bold;
         margin-top: 5%;
-        margin-left: 18%;
+        margin-left: 10% !important;
     }
     .core-values {
+        margin-top: 30% !important;
+    }
+    #contact-us {
+        font-size: 30px;
         margin-top: 30% !important;
     }
     #projects {
@@ -530,10 +540,10 @@ img {
     }
     .contact img {
         width: 276px;
-        margin-left: 15%;
+        margin-left: 6%;
     }
     .calendly {
-        width: 360px;
+        width: 300px;
     }
     .tabs {
         margin-top: 3% !important;
@@ -541,15 +551,15 @@ img {
         margin: auto;
         justify-content: flex-end;
         border-radius: 0px;
-        margin-left: 10% !important;
-        width: 400px !important;
+        margin-left: 5% !important;
+        width: 330px !important;
         height: 790px !important;
         background: #D8E8FF;
         overflow: hidden;
         padding: 20px 30px;
     }
     .tab-header>div {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
     form label {
         font-size: 18px;
@@ -602,13 +612,13 @@ img {
     }
     .containr {
         margin: 0;
-        width: 340px !important;
+        width: 280px !important;
         border-radius: 5px;
         background-color: #ffffff;
         padding: 20px;
     }
     .footer a {
-        font-size: 16px;
+        font-size: 14px;
     }
     .footerimg {
         width: 216px;
