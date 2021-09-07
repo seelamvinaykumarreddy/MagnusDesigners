@@ -688,6 +688,31 @@ img {
 
 .nav__link {
     color: var(--white-color);
+    margin: auto;
+}
+
+#hvr {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+#hvr:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 5px;
+    left: 0;
+    background-color: #0011ff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#hvr:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .nav__social {
@@ -828,7 +853,7 @@ img {
     padding: 6px;
     padding-right: 3px;
     padding-left: 3px;
-    margin-top: -6px;
+    margin-top: 0px;
     margin-left: 2%;
     margin-right: -5%;
     transition: ease-out 400ms;
