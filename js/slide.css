@@ -50,6 +50,7 @@
 }
 
 .flickity-button {
+    visibility: hidden;
     position: absolute;
     background: hsla(0, 0%, 100%, 0.75);
     border: none;
@@ -128,6 +129,7 @@
 .flickity-page-dots {
     position: absolute;
     width: 100%;
+    display: none;
     bottom: -25px;
     padding: 0;
     margin: 0;
