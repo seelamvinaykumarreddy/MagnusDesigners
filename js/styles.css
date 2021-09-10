@@ -273,8 +273,8 @@ img {
         margin: auto;
         justify-content: flex-end;
         border-radius: 0px;
-        margin-left: -18% !important;
-        width: 486px !important;
+        margin-left: 0% !important;
+        width: 480px !important;
         height: 790px !important;
         background: #D8E8FF;
         overflow: hidden;
@@ -363,11 +363,28 @@ img {
         margin-bottom: 10% !important;
         align-items: baseline !important;
     }
+    .details {
+        width: 100% !important;
+        margin-left: -3%;
+        margin-top: -10%;
+        margin-right: 20% !important;
+    }
+    .officed {
+        height: 700px !important;
+        margin-left: -1% !important;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .missionimg {
         width: 250px;
+    }
+    .officed {
+        margin: 0% !important;
+    }
+    .details {
+        margin-top: -10%;
+        margin-right: 10%;
     }
     .mission-text {
         color: #000;

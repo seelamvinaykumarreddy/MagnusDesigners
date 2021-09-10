@@ -156,3 +156,9 @@
 .flickity-page-dots .dot.is-selected {
     opacity: 1;
 }
+
+.lnr-earth,
+.lnr-history,
+.lnr-envelope {
+    font-size: 24px;
+}
