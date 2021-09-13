@@ -388,6 +388,7 @@ img {
     }
     .mission-text {
         color: #000;
+        margin-right: 5%;
     }
     .who-img {
         width: 360px;
@@ -407,7 +408,7 @@ img {
         margin-bottom: 4%;
     }
     .hero-text1 {
-        margin-top: 21% !important;
+        margin-top: -10% !important;
     }
     .nav {
         position: fixed;
